@@ -5,17 +5,16 @@ import java.util.Random;
 public class PokerGame {
 
 	public static void main(String[] args) {
-		int[] n = new int[10];
-		Card[] c = new Card[10];
-		System.out.println(n[0]);
-		c[0] = new Card(45);
-		System.out.println(c[0].get());
-		
 		Poker poker = new Poker();
-		poker.shuffle();
+		//poker.shuffle();
 		poker.print();
 		
 		
+		/*int[] n = new int[10];
+		Card[] c = new Card[10];
+		System.out.println(n[0]);
+		c[0] = new Card(45);
+		System.out.println(c[0].get());*/
 		
 		//Card s = new Card(5);
 		
